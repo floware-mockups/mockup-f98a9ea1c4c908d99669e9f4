@@ -1,0 +1,141 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare, filtrare e registrare pratiche con stato e scadenza; include una dashboard riepilogativa.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle pratiche aperte e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "18"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "9"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Scadenza",
+        "Categoria"
+      ],
+      "rows": [
+        [
+          "In lavorazione",
+          "12/06/2026",
+          "Richiesta informazioni"
+        ],
+        [
+          "In attesa",
+          "14/06/2026",
+          "Aggiornamento pratica"
+        ],
+        [
+          "Da esaminare",
+          "16/06/2026",
+          "Rilascio attestazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Consulta e filtra le pratiche per codice, richiedente, categoria, stato e scadenza.",
+      "metrics": [
+        {
+          "label": "Risultati mostrati",
+          "value": "4"
+        },
+        {
+          "label": "Scadute",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-1042",
+          "Lumo Vela",
+          "Richiesta informazioni",
+          "In lavorazione",
+          "02/06/2026",
+          "12/06/2026"
+        ],
+        [
+          "PR-1043",
+          "Nubi Riva",
+          "Aggiornamento pratica",
+          "In attesa",
+          "03/06/2026",
+          "14/06/2026"
+        ],
+        [
+          "PR-1044",
+          "Vela Sera",
+          "Rilascio attestazione",
+          "Da esaminare",
+          "04/06/2026",
+          "16/06/2026"
+        ],
+        [
+          "PR-1045",
+          "Riva Lumo",
+          "Segnalazione",
+          "In lavorazione",
+          "28/05/2026",
+          "08/06/2026"
+        ]
+      ],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica dello sportello indicando i dati essenziali e la relativa scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Richiedente",
+        "Categoria",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
